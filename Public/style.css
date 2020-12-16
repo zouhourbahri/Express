@@ -1,0 +1,95 @@
+/*general*/
+html,body{
+    margin:0px;
+}
+h1{
+    font: 1.5em sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white; 
+}
+a:hover{
+    color:rgb(12, 12, 105);
+    text-decoration: underline;
+}
+.speciallinks{
+    color: rgb(0, 47, 255);
+}
+.box{
+    border:1px solid rgba(112, 110, 110, 0.568);
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+}
+.text{
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+/*navbar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 20px;
+    align-items: center;
+    background-color: rgba(46, 44, 44, 0.411);
+    color: white;
+}
+.liste{
+list-style: none;
+display: flex;
+justify-content: space-around;
+font: 1.2em sans-serif;
+}
+.listeelement{
+    margin:0px 20px;
+    cursor: pointer;
+}
+
+/*index*/
+ .logo{
+ margin:80px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.documentation{
+   margin-top: 20px;
+   text-decoration: none;
+   font: 1.5em sans-serif;
+} 
+.express{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Contact*/
+.contactus{
+    padding:20px;
+    margin:50px auto;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin:40px auto;
+    padding:20px;
+    width: 500px;
+}
+.area{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.label{
+    margin-bottom:20px;
+}
+.form-control{
+    width:350px;
+    height:100px;
+    margin-right: 20px;
+}
+/*services*/
+.photo{
+    margin:70px 300px;
+}
+
